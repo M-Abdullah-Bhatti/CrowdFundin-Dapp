@@ -1,6 +1,6 @@
 import React from "react";
-// import AddButton from "../components/AddButton";
-// import CreateProject from "../components/CreateProject";
+import AddButton from "../components/AddButton.jsx";
+import CreateProject from "../components/CreateProject";
 import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 
@@ -19,9 +19,9 @@ const Home = () => {
           Load More
         </button>
       </div>
-      {/* <CreateProject /> */}
+      <CreateProject />
 
-      {/* <AddButton /> */}
+      <AddButton />
     </div>
   );
 };

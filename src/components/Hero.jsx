@@ -1,6 +1,6 @@
 // import { setGlobalState } from "../store";
 
-// import { setGlobalState, useGlobalState } from '../store'
+import { setGlobalState, useGlobalState } from "../store";
 const Hero = () => {
   //   const [stats] = useGlobalState("stats");
 
